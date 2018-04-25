@@ -29,18 +29,22 @@
         private void InitializeComponent()
         {
             this.btnEnter = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.lblFirstName = new System.Windows.Forms.Label();
-            this.lblMiddleName = new System.Windows.Forms.Label();
-            this.lblLastName = new System.Windows.Forms.Label();
+            this.txtAppartement = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtStreet = new System.Windows.Forms.TextBox();
+            this.lblStreet = new System.Windows.Forms.Label();
+            this.lblAppartement = new System.Windows.Forms.Label();
+            this.lblbCity = new System.Windows.Forms.Label();
+            this.txtprovince = new System.Windows.Forms.TextBox();
+            this.txtPostal = new System.Windows.Forms.TextBox();
+            this.lblprovince = new System.Windows.Forms.Label();
+            this.lblPostal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEnter
             // 
             this.btnEnter.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnEnter.Location = new System.Drawing.Point(97, 208);
+            this.btnEnter.Location = new System.Drawing.Point(127, 295);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(75, 23);
             this.btnEnter.TabIndex = 0;
@@ -48,69 +52,107 @@
             this.btnEnter.UseVisualStyleBackColor = true;
             this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
-            // textBox1
+            // txtAppartement
             // 
-            this.textBox1.Location = new System.Drawing.Point(178, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtAppartement.Location = new System.Drawing.Point(215, 49);
+            this.txtAppartement.Name = "txtAppartement";
+            this.txtAppartement.Size = new System.Drawing.Size(100, 20);
+            this.txtAppartement.TabIndex = 1;
             // 
-            // textBox2
+            // txtCity
             // 
-            this.textBox2.Location = new System.Drawing.Point(178, 146);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtCity.Location = new System.Drawing.Point(215, 146);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(100, 20);
+            this.txtCity.TabIndex = 2;
             // 
-            // textBox3
+            // txtStreet
             // 
-            this.textBox3.Location = new System.Drawing.Point(178, 91);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 3;
+            this.txtStreet.Location = new System.Drawing.Point(215, 95);
+            this.txtStreet.Name = "txtStreet";
+            this.txtStreet.Size = new System.Drawing.Size(100, 20);
+            this.txtStreet.TabIndex = 3;
             // 
-            // lblFirstName
+            // lblStreet
             // 
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lblFirstName.Location = new System.Drawing.Point(12, 45);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(148, 16);
-            this.lblFirstName.TabIndex = 4;
-            this.lblFirstName.Text = "Enter your first name";
+            this.lblStreet.AutoSize = true;
+            this.lblStreet.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lblStreet.Location = new System.Drawing.Point(12, 95);
+            this.lblStreet.Name = "lblStreet";
+            this.lblStreet.Size = new System.Drawing.Size(157, 16);
+            this.lblStreet.TabIndex = 4;
+            this.lblStreet.Text = "Enter your street name";
             // 
-            // lblMiddleName
+            // lblAppartement
             // 
-            this.lblMiddleName.AutoSize = true;
-            this.lblMiddleName.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lblMiddleName.Location = new System.Drawing.Point(12, 95);
-            this.lblMiddleName.Name = "lblMiddleName";
-            this.lblMiddleName.Size = new System.Drawing.Size(165, 16);
-            this.lblMiddleName.TabIndex = 5;
-            this.lblMiddleName.Text = "Enter your middle name";
+            this.lblAppartement.AutoSize = true;
+            this.lblAppartement.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lblAppartement.Location = new System.Drawing.Point(12, 49);
+            this.lblAppartement.Name = "lblAppartement";
+            this.lblAppartement.Size = new System.Drawing.Size(190, 16);
+            this.lblAppartement.TabIndex = 5;
+            this.lblAppartement.Text = "Enter your Appartement No";
             // 
-            // lblLastName
+            // lblbCity
             // 
-            this.lblLastName.AutoSize = true;
-            this.lblLastName.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lblLastName.Location = new System.Drawing.Point(12, 150);
-            this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(143, 16);
-            this.lblLastName.TabIndex = 6;
-            this.lblLastName.Text = "Enter your last name";
+            this.lblbCity.AutoSize = true;
+            this.lblbCity.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lblbCity.Location = new System.Drawing.Point(12, 150);
+            this.lblbCity.Name = "lblbCity";
+            this.lblbCity.Size = new System.Drawing.Size(106, 16);
+            this.lblbCity.TabIndex = 6;
+            this.lblbCity.Text = "Enter your city";
+            // 
+            // txtprovince
+            // 
+            this.txtprovince.Location = new System.Drawing.Point(215, 197);
+            this.txtprovince.Name = "txtprovince";
+            this.txtprovince.Size = new System.Drawing.Size(100, 20);
+            this.txtprovince.TabIndex = 7;
+            // 
+            // txtPostal
+            // 
+            this.txtPostal.Location = new System.Drawing.Point(215, 243);
+            this.txtPostal.Name = "txtPostal";
+            this.txtPostal.Size = new System.Drawing.Size(100, 20);
+            this.txtPostal.TabIndex = 8;
+            // 
+            // lblprovince
+            // 
+            this.lblprovince.AutoSize = true;
+            this.lblprovince.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lblprovince.Location = new System.Drawing.Point(12, 201);
+            this.lblprovince.Name = "lblprovince";
+            this.lblprovince.Size = new System.Drawing.Size(138, 16);
+            this.lblprovince.TabIndex = 9;
+            this.lblprovince.Text = "Enter your province";
+            // 
+            // lblPostal
+            // 
+            this.lblPostal.AutoSize = true;
+            this.lblPostal.Font = new System.Drawing.Font("SuperFrench", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lblPostal.Location = new System.Drawing.Point(12, 243);
+            this.lblPostal.Name = "lblPostal";
+            this.lblPostal.Size = new System.Drawing.Size(154, 16);
+            this.lblPostal.TabIndex = 10;
+            this.lblPostal.Text = "Enter your postal code";
             // 
             // frmAddress
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(284, 265);
-            this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.lblMiddleName);
-            this.Controls.Add(this.lblFirstName);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(327, 337);
+            this.Controls.Add(this.lblPostal);
+            this.Controls.Add(this.lblprovince);
+            this.Controls.Add(this.txtPostal);
+            this.Controls.Add(this.txtprovince);
+            this.Controls.Add(this.lblbCity);
+            this.Controls.Add(this.lblAppartement);
+            this.Controls.Add(this.lblStreet);
+            this.Controls.Add(this.txtStreet);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtAppartement);
             this.Controls.Add(this.btnEnter);
             this.Name = "frmAddress";
             this.Text = "Address Program by Allison C";
@@ -122,12 +164,16 @@
         #endregion
 
         private System.Windows.Forms.Button btnEnter;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.Label lblMiddleName;
-        private System.Windows.Forms.Label lblLastName;
+        private System.Windows.Forms.TextBox txtAppartement;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtStreet;
+        private System.Windows.Forms.Label lblStreet;
+        private System.Windows.Forms.Label lblAppartement;
+        private System.Windows.Forms.Label lblbCity;
+        private System.Windows.Forms.TextBox txtprovince;
+        private System.Windows.Forms.TextBox txtPostal;
+        private System.Windows.Forms.Label lblprovince;
+        private System.Windows.Forms.Label lblPostal;
     }
 }
 
